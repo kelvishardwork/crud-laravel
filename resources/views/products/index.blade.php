@@ -41,6 +41,6 @@
         {!! $products->render() !!}
     </div>
     <div class="col-sm-4">
-        mensagem
+        @include('products.fragment.aside')
     </div>
 @endsection
